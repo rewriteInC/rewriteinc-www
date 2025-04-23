@@ -22,7 +22,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
-          DIST: 'dist/offscale-www'
+          DIST: 'dist/rewriteinc-www'
           TARGET: 'rewriteInC/rewriteInC.github.io'
           CNAME: 'rewriteinc.io'
         run: |
